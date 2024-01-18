@@ -1,5 +1,5 @@
 """
-  # PART 1: Gather Information
+  Gather Information
     - Expected Output (for the first call): False
     - Actual Output (for the first call): True
     - Expected Output (for the second call): True
@@ -10,7 +10,7 @@
   - Deduction about the Cause of the Error:
     - The function returns False too early within the loop, causing incorrect results.
 
-  # PART 2: State Assumptions
+  State Assumptions
   - Assumptions:
     1. The loop iterates over the indices up to the third-to-last element (`len(list_of_nums) - 2`).
     2. The function returns True if three consecutive numbers in the list increase by 1.
