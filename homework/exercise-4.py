@@ -7,6 +7,7 @@
       - `RecursionError: maximum recursion depth exceeded in comparison`
     - Line Number Causing the Error:
       - Line 34: `return binary_search(arr, element, low, mid)`
+      - Line 37: `return binary_search(arr, element, mid, low)`
     - Deduction about the Cause of the Error:
       - The recursion depth is exceeding the limit, likely due to incorrect recursive calls.
 
